@@ -14,9 +14,6 @@
   "repository": {
     "url": "https://github.com/AngularJS-SPA-Development/grunt-angular-gettext-message.git"
   },
-  "bugs": {
-    "url": "https://github.com/rubenv/grunt-angular-gettext-message/issues"
-  },
   "licenses": [
     {
       "type": "MIT",
