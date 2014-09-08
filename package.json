@@ -1,0 +1,54 @@
+{
+  "name": "grunt-angular-gettext-message",
+  "description": "Tasks for extracting/compiling angular-gettext-message strings.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Peter Yun",
+    "email": "nulpulum@gmail.com"
+  },
+  "original author": {
+    "name": "Ruben Vermeersch",
+    "email": "ruben@savanne.be",
+    "url": "http://savanne.be"
+  },
+  "repository": {
+    "url": "https://github.com/AngularJS-SPA-Development/grunt-angular-gettext-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubenv/grunt-angular-gettext-message/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rubenv/grunt-angular-gettext-message/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-mocha-cli": "~1.0.6",
+    "grunt-release": "~0.4.0",
+    "pofile": "~0.2.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "angular",
+    "gettext"
+  ],
+  "dependencies": {
+    "angular-gettext-tools": "~1.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+.*.swp
+.idea
+/node_modules
+/tmp
+/test/fixtures/*.mo
+.project
